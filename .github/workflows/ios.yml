@@ -48,4 +48,4 @@ jobs:
     # Artifact name
             name: test 
     # Destination path
-            path: release.zip
+            path: /.github/workflows/
