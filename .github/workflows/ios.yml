@@ -44,8 +44,8 @@ jobs:
           xcodebuild test-without-building -scheme "$scheme" -"$filetype_parameter" "$file_to_build" -destination "platform=$platform,name=$device"
       - name: Download a Build Artifact
         uses: actions/download-artifact@v3.0.0
-          with:
-          # Artifact name
-            name: # optional
-          # Destination path
-            path: # optional
+        with:
+    # Artifact name
+            name: test 
+    # Destination path
+            path: release.zip
